@@ -5,362 +5,605 @@
 
 ## Contents
 
-- [C](#c)
-- [C#](#c#)
-- [C++](#c++)
-- [CSS](#css)
-- [Clojure](#clojure)
-- [D](#d)
-- [Dart](#dart)
-- [Dockerfile](#dockerfile)
-- [Elixir](#elixir)
-- [Go](#go)
-- [HTML](#html)
-- [Java](#java)
-- [JavaScript](#javascript)
-- [Jupyter Notebook](#jupyter-notebook)
-- [Kotlin](#kotlin)
-- [Logos](#logos)
-- [Makefile](#makefile)
-- [Nim](#nim)
-- [Objective-C](#objective-c)
-- [Objective-C++](#objective-c++)
-- [Others](#others)
-- [PHP](#php)
-- [Perl](#perl)
-- [Perl 6](#perl-6)
-- [Python](#python)
-- [Ruby](#ruby)
-- [Rust](#rust)
-- [Shell](#shell)
-- [Svelte](#svelte)
-- [Swift](#swift)
-- [TypeScript](#typescript)
-- [XSLT](#xslt)
+- [others](#others)
+- [golang](#golang)
+- [server](#server)
+- [windows](#windows)
+- [hacktoberfest](#hacktoberfest)
+- [home-assistant](#home-assistant)
+- [docker](#docker)
+- [homebrew](#homebrew)
+- [self-hosted](#self-hosted)
+- [open-source](#open-source)
+- [nodejs](#nodejs)
+- [python3](#python3)
+- [reactjs](#reactjs)
+- [ios](#ios)
+- [cli](#cli)
+- [rust](#rust)
+- [python](#python)
+- [deep-learning](#deep-learning)
+- [pytorch](#pytorch)
+- [android](#android)
+- [dart](#dart)
+- [flutter](#flutter)
+- [django](#django)
+- [p2p](#p2p)
+- [swift](#swift)
+- [swiftui](#swiftui)
+- [terminal](#terminal)
+- [go](#go)
+- [javascript](#javascript)
+- [raspberry-pi](#raspberry-pi)
+- [reverse-engineering](#reverse-engineering)
+- [svelte](#svelte)
+- [ai](#ai)
+- [electron](#electron)
+- [twitter](#twitter)
+- [chrome-extension](#chrome-extension)
+- [firefox](#firefox)
+- [laravel](#laravel)
+- [php](#php)
+- [markdown](#markdown)
+- [bash](#bash)
+- [git](#git)
+- [npm](#npm)
+- [visual-studio-code](#visual-studio-code)
+- [linux](#linux)
+- [shell](#shell)
+- [csharp](#csharp)
+- [kubernetes](#kubernetes)
+- [security](#security)
+- [macos](#macos)
+- [automation](#automation)
+- [monitoring](#monitoring)
+- [music](#music)
+- [google-cloud](#google-cloud)
+- [mac](#mac)
+- [java](#java)
+- [good-first-issue](#good-first-issue)
+- [covid-19](#covid-19)
+- [computer-vision](#computer-vision)
+- [react](#react)
+- [flask](#flask)
+- [postgresql](#postgresql)
+- [javafx](#javafx)
+- [monero](#monero)
+- [cryptocurrency](#cryptocurrency)
+- [blockchain](#blockchain)
+- [bitcoin](#bitcoin)
+- [numpy](#numpy)
+- [c](#c)
+- [ansible](#ansible)
+- [ubuntu](#ubuntu)
+- [library](#library)
 
-## C 
+## others 
 
+- [lchmagKekse/TOTK-SaveGame-Editor](https://github.com/lchmagKekse/TOTK-SaveGame-Editor) - Savegame Editor for The Legend of Zelda: Tears of the Kingdom
+- [matt-oneill/homeassistant-plexwebhooks](https://github.com/matt-oneill/homeassistant-plexwebhooks) - Plex Webhook support for Home Assistant
+- [JBassett/plex_webhooks](https://github.com/JBassett/plex_webhooks) - Plex Webhook support for Home Assistant
+- [WideBoner/betterww](https://github.com/WideBoner/betterww) - Better Wind Waker
+- [OpenEmu/dolphin](https://github.com/OpenEmu/dolphin) - Dolphin is a GameCube / Wii emulator, allowing you to play games for these two platforms on PC with improvements.
+- [IgnisDa/ryot](https://github.com/IgnisDa/ryot) - Roll your own tracker!
+- [l3uddz/plex_dupefinder](https://github.com/l3uddz/plex_dupefinder) - Find and delete duplicate files in Plex
+- [get-iplayer/get_iplayer](https://github.com/get-iplayer/get_iplayer) - A utility for downloading TV and radio programmes from BBC iPlayer and BBC Sounds
+- [hanai3Bi/Switch-OC-Suite](https://github.com/hanai3Bi/Switch-OC-Suite) - Overclocking suite for Nintendo Switch devices running Atmosphere CFW
+- [JPhilipp/Shortbook](https://github.com/JPhilipp/Shortbook) - Shortens a Kindle ebook via OCR and GPT-4 API
+- [bazarr/wiki](https://github.com/bazarr/wiki) - Wiki for Bazarr, Bazarr is a companion application to Sonarr and Radarr that manages and downloads subtitles based on your requirements.
+- [McCloudS/subgen](https://github.com/McCloudS/subgen) - Autogenerate subtitles using OpenAI Whisper Model via Plex and Tautulli
+- [KWottrich/sys-clk](https://github.com/KWottrich/sys-clk) - sys-clk modified to allow boost clocks
+- [retronx-team/sys-clk](https://github.com/retronx-team/sys-clk) - Nintendo Switch homebrew overclocking/underclocking system module and frontend
 - [cathery/sys-ftpd](https://github.com/cathery/sys-ftpd) - Nintendo Switch FTP server as a background service (sysmodule)
 - [Cesura/nxsh](https://github.com/Cesura/nxsh) - BusyBox-like remote shell for the Nintendo Switch over telnet
 - [lsp199308/Lockpick_RCM](https://github.com/lsp199308/Lockpick_RCM) - Nintendo: go fuck yourself.
 - [Mxlollipop/Lockpick_RCM](https://github.com/Mxlollipop/Lockpick_RCM) - Nintendo: go fuck yourself.
 - [iczero/Lockpick_RCM](https://github.com/iczero/Lockpick_RCM) - magnet:?xt=urn:btih:1afa0e6593464ac49c7256b5897b3f0ae6e33ea4
 - [acidanthera/OpenCorePkg](https://github.com/acidanthera/OpenCorePkg) - OpenCore bootloader
-- [XorTroll/Goldleaf](https://github.com/XorTroll/Goldleaf) - 🍂 Multipurpose homebrew tool for Nintendo Switch
-- [mikebrady/shairport-sync](https://github.com/mikebrady/shairport-sync) - AirPlay and AirPlay 2 audio player
-- [atc1441/ATC_MiThermometer](https://github.com/atc1441/ATC_MiThermometer) - Custom firmware for the Xiaomi Thermometer LYWSD03MMC and Telink Flasher via USB to Serial converter
-- [gnif/LookingGlass](https://github.com/gnif/LookingGlass) - An extremely low latency KVMFR (KVM FrameRelay) implementation for guests with VGA PCI Passthrough.
-- [CloverHackyColor/CloverBootloader](https://github.com/CloverHackyColor/CloverBootloader) - Bootloader for macOS, Windows and Linux in UEFI and in legacy mode
-- [borishonman/cydownload](https://github.com/borishonman/cydownload) - 
-- [pwn20wndstuff/Undecimus](https://github.com/pwn20wndstuff/Undecimus) - unc0ver jailbreak for iOS 11.0 - 12.4
-- [xbbricker/ccminer-cryptonight-mac](https://github.com/xbbricker/ccminer-cryptonight-mac) - Binaries for CUDA mining on macOS
-- [dinosec/iphone-dataprotection](https://github.com/dinosec/iphone-dataprotection) - 
-- [btpd/btpd](https://github.com/btpd/btpd) - ⚡ The BitTorrent Protocol Daemon
-- [xerub/extra_recipe](https://github.com/xerub/extra_recipe) - Exception-oriented exploitation by Ian Beer
-- [Siguza/ios-kern-utils](https://github.com/Siguza/ios-kern-utils) - iOS Kernel utilities
-- [tihmstar/noncestatistics](https://github.com/tihmstar/noncestatistics) - a simple tool to get a bunch of ApNonces from iOS devices
-
-## C# # 
-
-- [lchmagKekse/TOTK-SaveGame-Editor](https://github.com/lchmagKekse/TOTK-SaveGame-Editor) - Savegame Editor for The Legend of Zelda: Tears of the Kingdom
-- [JPhilipp/Shortbook](https://github.com/JPhilipp/Shortbook) - Shortens a Kindle ebook via OCR and GPT-4 API
-- [carlospolop/PEASS-ng](https://github.com/carlospolop/PEASS-ng) - PEASS - Privilege Escalation Awesome Scripts SUITE (with colors)
-- [jwallet/spy-spotify](https://github.com/jwallet/spy-spotify) - 🎤 Records Spotify to mp3 without ads and adds media tags to the files 🎵
-- [2600box/MegaKeep](https://github.com/2600box/MegaKeep) - Log into multiple mega.nz accounts to keep files from being deleted
-- [Nielk1/VSCView](https://github.com/Nielk1/VSCView) - OSD for Steam Controller and various other controllers
-
-## C++ 
-
-- [OpenEmu/dolphin](https://github.com/OpenEmu/dolphin) - Dolphin is a GameCube / Wii emulator, allowing you to play games for these two platforms on PC with improvements.
-- [hanai3Bi/Switch-OC-Suite](https://github.com/hanai3Bi/Switch-OC-Suite) - Overclocking suite for Nintendo Switch devices running Atmosphere CFW
-- [KWottrich/sys-clk](https://github.com/KWottrich/sys-clk) - sys-clk modified to allow boost clocks
-- [retronx-team/sys-clk](https://github.com/retronx-team/sys-clk) - Nintendo Switch homebrew overclocking/underclocking system module and frontend
+- [omnivore-app/omnivore](https://github.com/omnivore-app/omnivore) - Omnivore is a complete, open source read-it-later solution for people who like reading.
 - [ln93/Tinfoil](https://github.com/ln93/Tinfoil) - Nintendo Switch homebrew to manage titles.
+- [relvacode/storm](https://github.com/relvacode/storm) - A Modern Deluge Interface
 - [Atmosphere-NX/Atmosphere](https://github.com/Atmosphere-NX/Atmosphere) - Atmosphère is a work-in-progress customized firmware for the Nintendo Switch.
 - [ndeadly/MissionControl](https://github.com/ndeadly/MissionControl) - Use controllers from other consoles natively on your Nintendo Switch via Bluetooth. No dongles or other external hardware neccessary.
-- [kasmtech/KasmVNC](https://github.com/kasmtech/KasmVNC) - Modern VNC Server and client, web based and secure
-- [Alkl58/RcloneBrowser](https://github.com/Alkl58/RcloneBrowser) - Simple cross platform GUI for rclone. Supports macOS, GNU/Linux, BSD family and Windows.
-- [mikedld/bt-migrate](https://github.com/mikedld/bt-migrate) - Torrent state migration tool
-- [Good0007/Asrock-Z390M-ITX-AC-Hackintosh-OC](https://github.com/Good0007/Asrock-Z390M-ITX-AC-Hackintosh-OC) - Asrock-Z390M-ITX-AC-Hackintosh for opencore
-- [tihmstar/tsschecker](https://github.com/tihmstar/tsschecker) - a powerfull tool to check tss signing status of various devices and firmwares
-- [monero-project/monero](https://github.com/monero-project/monero) - Monero: the secure, private, untraceable cryptocurrency
-- [chros73/rtorrent-ps-ch](https://github.com/chros73/rtorrent-ps-ch) - :art: Extended rTorrent distribution with UI enhancements, colorization, and some added features.
-- [mmozeiko/RcloneBrowser](https://github.com/mmozeiko/RcloneBrowser) - Simple cross platform GUI for rclone
-- [rakshasa/libtorrent](https://github.com/rakshasa/libtorrent) - libTorrent BitTorrent library
-- [rakshasa/rtorrent](https://github.com/rakshasa/rtorrent) - rTorrent BitTorrent client
-
-## CSS 
-
-- [tobychui/zoraxy](https://github.com/tobychui/zoraxy) - General purpose request (reverse) proxy and forwarding tool for low power devices. Now written in Go!
-
-## Clojure 
-
-- [oliyh/tinybeans-archive](https://github.com/oliyh/tinybeans-archive) - Create an archive of a tinybeans journal
-
-## D 
-
-- [senselogic/DECKER](https://github.com/senselogic/DECKER) - Flashcard deck converter.
-
-## Dart 
-
-- [astubenbord/paperless-mobile](https://github.com/astubenbord/paperless-mobile) - An (almost) fully fledged mobile paperless client.
-- [bauerj/paperless_app](https://github.com/bauerj/paperless_app) - An Android/iOS app for Paperless
-- [immich-app/immich](https://github.com/immich-app/immich) - Self-hosted photo and video backup solution directly from your mobile phone.
-
-## Dockerfile 
-
-- [lawndoc/foxception](https://github.com/lawndoc/foxception) - Isolated Firefox browser with pre-configured extensions. Customize with your own extensions as needed.
-
-## Elixir 
-
-- [sergiotapia/magnetissimo](https://github.com/sergiotapia/magnetissimo) - Web application that indexes all popular torrent sites, and saves it to the local database.
-
-## Go 
-
-- [layou233/NeverIdle](https://github.com/layou233/NeverIdle) - 资源定期浪费，可用于 Oracle 甲骨文保活。
-- [AnalogJ/scrutiny](https://github.com/AnalogJ/scrutiny) - Hard Drive S.M.A.R.T Monitoring, Historical Trends & Real World Failure Thresholds
-- [ddosify/ddosify](https://github.com/ddosify/ddosify) - Comprehensive Performance Testing Platform. Available on CLI, Self-Hosted, and Cloud - https://ddosify.com 🚀
-- [aceberg/WatchYourLAN](https://github.com/aceberg/WatchYourLAN) - Lightweight network IP scanner with web GUI
-- [divadvo/UBS2YNAB](https://github.com/divadvo/UBS2YNAB) - Export your UBS Switzerland bank transactions for import in YNAB
-- [favonia/cloudflare-ddns](https://github.com/favonia/cloudflare-ddns) - 🌟 A small (&lt; 3MB), feature-rich, and robust Cloudflare DDNS updater
-- [rakshasa/rbedit](https://github.com/rakshasa/rbedit) - Dependency-Free Bencode Editor
-- [localvar/zhuyin](https://github.com/localvar/zhuyin) - A Go lang library for Chinese Zhuyin and Pinyin.  一个帮助处理中文注音和拼音的库，如把zhang1转换成zhāng或ㄓㄤ。
-- [fatedier/frp](https://github.com/fatedier/frp) - A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.
-- [extremecoders-re/go-dispatch-proxy](https://github.com/extremecoders-re/go-dispatch-proxy) - SOCKS5/Transparent load balancing proxy developed in Go, combines multiple internet connections
-- [plexdrive/plexdrive](https://github.com/plexdrive/plexdrive) - Plexdrive mounts your Google Drive FUSE filesystem (optimized for media playback)
-- [rclone/rclone](https://github.com/rclone/rclone) - "rsync for cloud storage" - Google Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Wasabi, Google Cloud Storage, Yandex Files
-
-## HTML 
-
-- [bazarr/wiki](https://github.com/bazarr/wiki) - Wiki for Bazarr, Bazarr is a companion application to Sonarr and Radarr that manages and downloads subtitles based on your requirements.
-- [omnivore-app/omnivore](https://github.com/omnivore-app/omnivore) - Omnivore is a complete, open source read-it-later solution for people who like reading.
-- [meichthys/foss_photo_libraries](https://github.com/meichthys/foss_photo_libraries) - Free and Open Source Photo Libraries
-- [hamsterbase/hamsterbase](https://github.com/hamsterbase/hamsterbase) - self-hosted, local-first web archive application.
-- [krmanik/Chinese-Grammar](https://github.com/krmanik/Chinese-Grammar) - Chinese Grammar List from https://resources.allsetlearning.com/chinese/grammar/  .
-- [anki-geo/ultimate-geography](https://github.com/anki-geo/ultimate-geography) - Geography flashcard deck for Anki
-- [skishore/inkstone](https://github.com/skishore/inkstone) - Learn Chinese on the go - no Internet connection required!
-- [Connum/hanzi-colorize](https://github.com/Connum/hanzi-colorize) - a script to turn HanziVG data into colored stroke order diagrams
-- [Connum/hanzivg](https://github.com/Connum/hanzivg) - Stroke order SVG files for Chinese Hanzi characters
-
-## Java 
-
-- [MaxiHuHe04/iTunes-Backup-Explorer](https://github.com/MaxiHuHe04/iTunes-Backup-Explorer) - A graphical tool that can extract and replace files from encrypted and non-encrypted iOS backups
-- [marq24/UUID0xFD6FTracer](https://github.com/marq24/UUID0xFD6FTracer) - Scan your current environment for devices running an app that make us of the ExposureNotification Service
-- [RipMeApp/ripme](https://github.com/RipMeApp/ripme) - Downloads albums in bulk
-- [airsquared/blobsaver](https://github.com/airsquared/blobsaver) - A cross-platform GUI and CLI app for automatically saving SHSH blobs
-
-## JavaScript 
-
-- [josephrcox/easy-reddit-downloader](https://github.com/josephrcox/easy-reddit-downloader) - Simple & Powerful Reddit Post Downloader
-- [intri-in/manage-my-damn-life-nextjs](https://github.com/intri-in/manage-my-damn-life-nextjs) - Manage My Damn Life (MMDL) is a self-hosted front end for managing your CalDAV tasks and calendars.
-- [MichMich/MagicMirror](https://github.com/MichMich/MagicMirror) - MagicMirror² is an open source modular smart mirror platform. With a growing list of installable modules, the MagicMirror² allows you to convert your hallway or bathroom mirror into your personal assi
-- [advplyr/audiobookshelf](https://github.com/advplyr/audiobookshelf) - Self-hosted audiobook and podcast server
-- [cweirup/JoplinSafariWebClipper](https://github.com/cweirup/JoplinSafariWebClipper) - Safari App Extension for Joplin Web Clipper
-- [jc9108/expanse](https://github.com/jc9108/expanse) - selfhosted multi-user web app for externally storing Reddit items (saved, created, upvoted, downvoted, hidden) to bypass Reddit's 1000-item listing limits
-- [cbackas/Posterizer-Extension](https://github.com/cbackas/Posterizer-Extension) - Browser extension for syncing TV show poster sets from ThePosterDB.com to a Plex server
-- [libredirect/browser_extension](https://github.com/libredirect/browser_extension) - A browser extension that redirects popular sites to alternative privacy friendly frontends
-- [kickscondor/fraidycat](https://github.com/kickscondor/fraidycat) - Follow blogs, wikis, YouTube channels, as well as accounts on Twitter, Instagram, etc. from a single page.
-- [54mv39/web](https://github.com/54mv39/web) - Add tracker Functionality to Transmission Remote Web Interface
-- [Flood-UI/flood](https://github.com/Flood-UI/flood) - A web UI for rTorrent, qBittorrent and Transmission with a Node.js backend and React frontend. Migrate to v4: https://github.com/jesec/flood/wiki/Migrate-from-older-versions-of-Flood.
-- [hotosm/tasking-manager](https://github.com/hotosm/tasking-manager) - Tasking Manager - The tool to team up for mapping in OpenStreetMap
-- [FWeinb/rclone-js](https://github.com/FWeinb/rclone-js) - Encrypt/Decrypt files in your browser
-- [brave/browser-laptop](https://github.com/brave/browser-laptop) - [DEPRECATED] Please see https://github.com/brave/brave-browser for the current version of Brave
-- [iancoleman/bip39](https://github.com/iancoleman/bip39) - A web tool for converting BIP39 mnemonic codes
-- [chrislennon/Crypto-Touchbar-App](https://github.com/chrislennon/Crypto-Touchbar-App) - A web app to build Apple touch bar elements for crytpo currencies. Requires BetterTouchTool. Supports wide range of cryptos and converts to a variety of fiat monies.
-- [karamanolev/WhatManager2](https://github.com/karamanolev/WhatManager2) - Torrent management system based on Django and Transmission
-
-## Jupyter Notebook 
-
-- [rajeshbhavikatti/daily_blink_to_notion](https://github.com/rajeshbhavikatti/daily_blink_to_notion) - 
-
-## Kotlin 
-
-- [JakeWharton/plex-orphaned-files](https://github.com/JakeWharton/plex-orphaned-files) - Find files in your Plex libraries which are not indexed
-
-## Logos 
-
-- [jacobcxdev/FBSpNOsor](https://github.com/jacobcxdev/FBSpNOsor) - A tweak to remove sponsored and suggested posts, videos, etc. from Facebook — written in Objective-C + Logos.
-- [PoomSmart/EmojiLayout](https://github.com/PoomSmart/EmojiLayout) - Adjust rows and columns number of emoji page.
-- [PoomSmart/EmojiPort-WT](https://github.com/PoomSmart/EmojiPort-WT) - Latest emojis for iOS 10.0 - 11.4
-
-## Makefile 
-
-- [RealKGB/Spartan](https://github.com/RealKGB/Spartan) - tvOS file browser made in swiftUI
-- [dictcp/wangfonts](https://github.com/dictcp/wangfonts) - Automatically exported from code.google.com/p/wangfonts
-
-## Nim 
-
-- [sergiotapia/torrentinim](https://github.com/sergiotapia/torrentinim) - A very low memory-footprint, self hosted API-only torrent search engine. Sonarr + Radarr Compatible, native support for Linux, Mac and Windows.
-
-## Objective-C 
-
-- [Galactic-Dev/iSponsorBlock](https://github.com/Galactic-Dev/iSponsorBlock) - A jailbreak tweak that implements the sponsorblock api to skip sponsorships in youtube videos.
-- [Qata/BarMagnet](https://github.com/Qata/BarMagnet) - An iOS app that interfaces with remote torrent clients
-- [objective-see/LuLu](https://github.com/objective-see/LuLu) - LuLu is the free macOS firewall
-- [PsychoTea/MeridianJB](https://github.com/PsychoTea/MeridianJB) - An iOS 10.x Jailbreak for all 64-bit devices.
-- [w0lfschild/spotifyPlus](https://github.com/w0lfschild/spotifyPlus) - 🎵 MacForge plugin to enhance the Spotify Desktop player on macOS
-- [spotlightishere/iOS-sbutils](https://github.com/spotlightishere/iOS-sbutils) - iOS utilities - replaces some broken Erica utilities and adds a bunch of new ones. This has a couple hotfixes.
-- [alexwasserman/ZFSStatusScript](https://github.com/alexwasserman/ZFSStatusScript) - Menu bar app to provide ZFS zpool status
-- [kpwn/yalu102](https://github.com/kpwn/yalu102) - incomplete iOS 10.2 jailbreak for 64 bit devices by qwertyoruiopz and marcograssi
-
-## Objective-C++ 
-
-- [cbreak-black/ZetaWatch](https://github.com/cbreak-black/ZetaWatch) - ZFS OSX Menu Bar widget
-- [sicreative/VoltageShift](https://github.com/sicreative/VoltageShift) - undervoltage Tools for MacOS
-
-## Others 
-
-- [LeoKlaus/Paperparrot](https://github.com/LeoKlaus/Paperparrot) - A native Swift app to manage all your documents. Fully compatible with Paperless-ngx
-- [vzamora/Proxmox-Cheatsheet](https://github.com/vzamora/Proxmox-Cheatsheet) - This is a compilation of notes I've gathered while setting up my own Proxmox server at home.
-- [devmount/CheatSheets](https://github.com/devmount/CheatSheets) - A curated list of everything I look up more than twice
-- [shiruken/hackintosh](https://github.com/shiruken/hackintosh) - Hackintosh v3 (i7-9700K + Radeon RX 5700 XT) - OpenCore 0.9.2 + Kexts + BIOS - macOS 13.3.1 (Ventura)
-- [SWRT-dev/bluecave-asuswrt](https://github.com/SWRT-dev/bluecave-asuswrt) - Third party firmware for Asus routers (blue cave)
-- [CSSEGISandData/COVID-19](https://github.com/CSSEGISandData/COVID-19) - Novel Coronavirus (COVID-19) Cases, provided by JHU CSSE
-- [parsimonhi/animHanzi](https://github.com/parsimonhi/animHanzi) - "animated" hanzi (chinese characters) that have the same look as in kanjiVG (japanese characters)
-- [qinkangdeid/z370n-wifi-hackintosh](https://github.com/qinkangdeid/z370n-wifi-hackintosh) - 技嘉主板(Z370N-WIFI)黑苹果EFI文件 查看
-- [fpunktk/raspi-fde](https://github.com/fpunktk/raspi-fde) - raspberry pi with full disk encryption and remote unlock
-- [Val/dedibox_fully_encrypted_debian_install](https://github.com/Val/dedibox_fully_encrypted_debian_install) - Dedibox Fully Encrypted Debian Install
-- [pyroscope/homebrew-rtorrent-ps](https://github.com/pyroscope/homebrew-rtorrent-ps) - :construction: [ORPHANED / INACTIVE] Homebrew tap for rTorrent-PS, an extended rTorrent distribution with UI enhancements, colorization, and some added features.
-
-## PHP 
-
-- [sandreas/m4b-tool](https://github.com/sandreas/m4b-tool) - m4b-tool is a command line utility to merge, split and chapterize audiobook files such as mp3, ogg, flac, m4a or m4b
-- [firefly-iii/data-importer](https://github.com/firefly-iii/data-importer) - The Firefly III Data Importer can import data into Firefly III
-- [anonaddy/anonaddy](https://github.com/anonaddy/anonaddy) - Anonymous email forwarding
-- [monicahq/monica](https://github.com/monicahq/monica) - Personal CRM. Remember everything about your friends, family and business relationships.
-- [zenbuffy/LiteraryClock](https://github.com/zenbuffy/LiteraryClock) - A repo to host improvements to the literary clock project kicked off by Jaap Meijers
-- [TSSSaver/TSSSaver](https://github.com/TSSSaver/TSSSaver) - An online interface for TSSChecker.
-
-## Perl 
-
-- [get-iplayer/get_iplayer](https://github.com/get-iplayer/get_iplayer) - A utility for downloading TV and radio programmes from BBC iPlayer and BBC Sounds
-- [philsmd/itunes_backup2hashcat](https://github.com/philsmd/itunes_backup2hashcat) - Extract the information needed from the Manifest.plist files to convert it to hashes compatible with hashcat
-- [jimsalterjrs/sanoid](https://github.com/jimsalterjrs/sanoid) - Policy-driven snapshot management and replication tools.  Using ZFS for underlying next-gen storage. (Btrfs support plans are shelved unless and until btrfs becomes reliable.) Primarily intended for L
-
-## Perl 6 
-
-- [knobunc/kindle-clock](https://github.com/knobunc/kindle-clock) - Kindle Customization Stuff
-
-## Python 
-
-- [matt-oneill/homeassistant-plexwebhooks](https://github.com/matt-oneill/homeassistant-plexwebhooks) - Plex Webhook support for Home Assistant
-- [JBassett/plex_webhooks](https://github.com/JBassett/plex_webhooks) - Plex Webhook support for Home Assistant
-- [WideBoner/betterww](https://github.com/WideBoner/betterww) - Better Wind Waker
-- [l3uddz/plex_dupefinder](https://github.com/l3uddz/plex_dupefinder) - Find and delete duplicate files in Plex
-- [SevaSk/ecoute](https://github.com/SevaSk/ecoute) - Ecoute is a live transcription tool that provides real-time transcripts for both the user's microphone input (You) and the user's speakers output (Speaker) in a textbox. It also generates a suggested 
-- [McCloudS/subgen](https://github.com/McCloudS/subgen) - Autogenerate subtitles using OpenAI Whisper Model via Plex and Tautulli
-- [oncleben31/home-assistant-config](https://github.com/oncleben31/home-assistant-config) - Ma configuration Home Assistant commentée en anglais et en français | My Home Assistant config with French and English comments.
-- [ahmetoner/whisper-asr-webservice](https://github.com/ahmetoner/whisper-asr-webservice) - OpenAI Whisper ASR Webservice API
-- [zurdi15/romm](https://github.com/zurdi15/romm) - RomM (Rom Manager) is a web based retro roms manager integrated with IGDB.
 - [x1ppy/freezetag](https://github.com/x1ppy/freezetag) - save, strip, and restore file paths and music metadata
 - [crawsome/Reddit_Image_Scraper](https://github.com/crawsome/Reddit_Image_Scraper) - Script that downloads media files from a list of subreddits.
-- [shadowmoose/RedditDownloader](https://github.com/shadowmoose/RedditDownloader) - Scrapes Reddit to download media of your choice.
-- [mandarons/icloud-drive-docker](https://github.com/mandarons/icloud-drive-docker) - Dockerized iCloud Client - make a local copy of your iCloud documents and photos, and keep it automatically up-to-date.
+- [kasmtech/KasmVNC](https://github.com/kasmtech/KasmVNC) - Modern VNC Server and client, web based and secure
+- [RealKGB/Spartan](https://github.com/RealKGB/Spartan) - tvOS file browser made in swiftUI
 - [p0n1/epub_to_audiobook](https://github.com/p0n1/epub_to_audiobook) - EPUB to audiobook converter with Azure TTS, optimized for Audiobookshelf
-- [coqui-ai/TTS](https://github.com/coqui-ai/TTS) - 🐸💬 - a deep learning toolkit for Text-to-Speech, battle-tested in research and production
 - [aedocw/epub2tts](https://github.com/aedocw/epub2tts) - 
-- [babybuddy/babybuddy](https://github.com/babybuddy/babybuddy) - A :baby: buddy to help caregivers track sleep, feedings, diaper changes, and tummy time to learn about and predict baby's needs without (as much) guess work.
+- [jonluca/mimessage](https://github.com/jonluca/mimessage) - iMessage Wrapped, Semantic Search, and AI Chats
+- [piscue/docker-backup-scripts](https://github.com/piscue/docker-backup-scripts) - Scripting to backup all your running containers
+- [layou233/NeverIdle](https://github.com/layou233/NeverIdle) - 资源定期浪费，可用于 Oracle 甲骨文保活。
+- [Alkl58/RcloneBrowser](https://github.com/Alkl58/RcloneBrowser) - Simple cross platform GUI for rclone. Supports macOS, GNU/Linux, BSD family and Windows.
+- [AnalogJ/scrutiny](https://github.com/AnalogJ/scrutiny) - Hard Drive S.M.A.R.T Monitoring, Historical Trends & Real World Failure Thresholds
+- [lalanza808/docker-monero-node](https://github.com/lalanza808/docker-monero-node) - Simple way to run a Monero daemon with some basic monitoring tools packaged in.
 - [ankicommunity/anki-devops-services](https://github.com/ankicommunity/anki-devops-services) - Anki Sync Server with Docker - and it works!
+- [pdfernhout/narrafirma](https://github.com/pdfernhout/narrafirma) - Single-page web app for Participatory Narrative Inquiry (PNI)
+- [mikebrady/shairport-sync](https://github.com/mikebrady/shairport-sync) - AirPlay and AirPlay 2 audio player
+- [hamsterbase/hamsterbase](https://github.com/hamsterbase/hamsterbase) - self-hosted, local-first web archive application.
+- [rajeshbhavikatti/daily_blink_to_notion](https://github.com/rajeshbhavikatti/daily_blink_to_notion) - 
 - [plamola/ocr-joplin-notes](https://github.com/plamola/ocr-joplin-notes) - Add OCR data from PDF and image files as a comment in Joplin, to enable full-text search
 - [ArchiveTeam/grab-site](https://github.com/ArchiveTeam/grab-site) - The archivist's web crawler: WARC output, dashboard for all crawls, dynamic ignore patterns
+- [jc9108/expanse](https://github.com/jc9108/expanse) - selfhosted multi-user web app for externally storing Reddit items (saved, created, upvoted, downvoted, hidden) to bypass Reddit's 1000-item listing limits
+- [senselogic/DECKER](https://github.com/senselogic/DECKER) - Flashcard deck converter.
 - [JvSomeren/tautulli-watched-sync](https://github.com/JvSomeren/tautulli-watched-sync) - Use this script to make Tautulli for plex synchronize watched TV Shows to Trakt.tv and movies to Letterboxd
+- [cbackas/Posterizer-Extension](https://github.com/cbackas/Posterizer-Extension) - Browser extension for syncing TV show poster sets from ThePosterDB.com to a Plex server
+- [sandreas/m4b-tool](https://github.com/sandreas/m4b-tool) - m4b-tool is a command line utility to merge, split and chapterize audiobook files such as mp3, ogg, flac, m4a or m4b
 - [ping/odmpy](https://github.com/ping/odmpy) - A simple command line manager for OverDrive/Libby loans. Download your library loans from the command line.
+- [mikedld/bt-migrate](https://github.com/mikedld/bt-migrate) - Torrent state migration tool
+- [firefly-iii/data-importer](https://github.com/firefly-iii/data-importer) - The Firefly III Data Importer can import data into Firefly III
+- [divadvo/UBS2YNAB](https://github.com/divadvo/UBS2YNAB) - Export your UBS Switzerland bank transactions for import in YNAB
+- [anonaddy/anonaddy](https://github.com/anonaddy/anonaddy) - Anonymous email forwarding
 - [ptrstn/dailyblink](https://github.com/ptrstn/dailyblink) - Downloads the Audio and Text of the Free Daily book from Blinkist.com
 - [NicoWeio/blinkist](https://github.com/NicoWeio/blinkist) - Tool to download Blinkist's free offerings, namely "Free Daily" and free curated lists
+- [atc1441/ATC_MiThermometer](https://github.com/atc1441/ATC_MiThermometer) - Custom firmware for the Xiaomi Thermometer LYWSD03MMC and Telink Flasher via USB to Serial converter
+- [vzamora/Proxmox-Cheatsheet](https://github.com/vzamora/Proxmox-Cheatsheet) - This is a compilation of notes I've gathered while setting up my own Proxmox server at home.
 - [sirk123au/ArrTools](https://github.com/sirk123au/ArrTools) - A collection of tools for Radarr, Sonarr & Lidarr
 - [lotfihamid/Bookstack-importdocs](https://github.com/lotfihamid/Bookstack-importdocs) - 
 - [noDRM/DeDRM_tools](https://github.com/noDRM/DeDRM_tools) - DeDRM tools for ebooks
+- [inthreedee/photoprism-transfer-album](https://github.com/inthreedee/photoprism-transfer-album) - Transfer a Google Photos album to a new Photoprism album
+- [boredazfcuk/docker-icloudpd](https://github.com/boredazfcuk/docker-icloudpd) - An Alpine Linux 3.17.3 container for the iCloud Photos Downloader command line utility
+- [knobunc/kindle-clock](https://github.com/knobunc/kindle-clock) - Kindle Customization Stuff
+- [zenbuffy/LiteraryClock](https://github.com/zenbuffy/LiteraryClock) - A repo to host improvements to the literary clock project kicked off by Jaap Meijers
 - [paperless-ngx/paperless-ngx](https://github.com/paperless-ngx/paperless-ngx) - A community-supported supercharged version of paperless: scan, index and archive all your physical documents
-- [goauthentik/authentik](https://github.com/goauthentik/authentik) - The authentication glue you need.
+- [shiruken/hackintosh](https://github.com/shiruken/hackintosh) - Hackintosh v3 (i7-9700K + Radeon RX 5700 XT) - OpenCore 0.9.2 + Kexts + BIOS - macOS 13.3.1 (Ventura)
+- [hartator/wayback-machine-downloader](https://github.com/hartator/wayback-machine-downloader) - Download an entire website from the Wayback Machine.
+- [visini/obsidian-icons-plugin](https://github.com/visini/obsidian-icons-plugin) - Add icons to your Obsidian notes – Experimental Obsidian Plugin
 - [BrianRS/zoom_participant_reporting](https://github.com/BrianRS/zoom_participant_reporting) - Create detailed reports of Zoom meeting attendance
 - [rmountjoy92/DashMachine](https://github.com/rmountjoy92/DashMachine) - Another web application bookmark dashboard, with fun features.
-- [dmunozv04/iSponsorBlockTV](https://github.com/dmunozv04/iSponsorBlockTV) - Automatically skip sponsor segments in YouTube videos playing on Apple TV.
 - [kairoaraujo/python-kodaksmarthome](https://github.com/kairoaraujo/python-kodaksmarthome) - Python Kodak Smart Home
+- [JakeWharton/plex-orphaned-files](https://github.com/JakeWharton/plex-orphaned-files) - Find files in your Plex libraries which are not indexed
+- [rakshasa/rbedit](https://github.com/rakshasa/rbedit) - Dependency-Free Bencode Editor
+- [cormiertyshawn895/Retroactive](https://github.com/cormiertyshawn895/Retroactive) - Run Aperture, iPhoto, and iTunes on macOS Ventura, macOS Monterey, macOS Big Sur, and macOS Catalina. Xcode 11.7 on macOS Mojave. Final Cut Pro 7, Logic Pro 9, and iWork ’09 on macOS Mojave or macOS H
 - [apprenticeharper/DeDRM_tools](https://github.com/apprenticeharper/DeDRM_tools) - DeDRM tools for ebooks
+- [Galactic-Dev/iSponsorBlock](https://github.com/Galactic-Dev/iSponsorBlock) - A jailbreak tweak that implements the sponsorblock api to skip sponsorships in youtube videos.
 - [cdgriffith/FastFlix](https://github.com/cdgriffith/FastFlix) - FastFlix is a free GUI for HEVC and AV1 encoding, GIF/WebP/AVIF creation, and more!
+- [marq24/UUID0xFD6FTracer](https://github.com/marq24/UUID0xFD6FTracer) - Scan your current environment for devices running an app that make us of the ExposureNotification Service
+- [Good0007/Asrock-Z390M-ITX-AC-Hackintosh-OC](https://github.com/Good0007/Asrock-Z390M-ITX-AC-Hackintosh-OC) - Asrock-Z390M-ITX-AC-Hackintosh for opencore
+- [SWRT-dev/bluecave-asuswrt](https://github.com/SWRT-dev/bluecave-asuswrt) - Third party firmware for Asus routers (blue cave)
 - [Arthur-Milchior/anki](https://github.com/Arthur-Milchior/anki) - Anki for desktop computers, with a lot of comments
-- [dwgrigsby/TranscribeVoiceFile2Text](https://github.com/dwgrigsby/TranscribeVoiceFile2Text) - Transcribe Voice File to Text
+- [krmanik/Chinese-Grammar](https://github.com/krmanik/Chinese-Grammar) - Chinese Grammar List from https://resources.allsetlearning.com/chinese/grammar/  .
+- [anki-geo/ultimate-geography](https://github.com/anki-geo/ultimate-geography) - Geography flashcard deck for Anki
+- [userdocs/python-libtorrent-binding](https://github.com/userdocs/python-libtorrent-binding) - A build script for python-libtorrent bindings using current dependencies with minimal system footprint
 - [akras14/speech-to-text](https://github.com/akras14/speech-to-text) - Example transcribing audio file (speech) to text with Google Cloud Speech API and Python
 - [luoliyan/chinese-support-redux](https://github.com/luoliyan/chinese-support-redux) - Anki add-on providing support for Chinese study
+- [skishore/inkstone](https://github.com/skishore/inkstone) - Learn Chinese on the go - no Internet connection required!
+- [parsimonhi/animHanzi](https://github.com/parsimonhi/animHanzi) - "animated" hanzi (chinese characters) that have the same look as in kanjiVG (japanese characters)
+- [Connum/hanzi-colorize](https://github.com/Connum/hanzi-colorize) - a script to turn HanziVG data into colored stroke order diagrams
 - [cayennes/kanji-colorize](https://github.com/cayennes/kanji-colorize) - a script and anki addon to turn KanjiVG data into colored stroke order diagrams
 - [kelciour/awesometts-anki-addon](https://github.com/kelciour/awesometts-anki-addon) - AwesomeTTS text-to-speech add-on for Anki
+- [localvar/zhuyin](https://github.com/localvar/zhuyin) - A Go lang library for Chinese Zhuyin and Pinyin.  一个帮助处理中文注音和拼音的库，如把zhang1转换成zhāng或ㄓㄤ。
+- [rouseabout/heisig](https://github.com/rouseabout/heisig) - Remembering Simplified Hanzi Project
 - [manjingero/zugzwang](https://github.com/manjingero/zugzwang) - A tool to exploit all jailbroken devices owned by clueless people
-- [junyanz/interactive-deep-colorization](https://github.com/junyanz/interactive-deep-colorization) - Deep learning software for colorizing black and white images with a few clicks.
-- [JohnDoee/autotorrent](https://github.com/JohnDoee/autotorrent) - Matches torrents with files and gets them seeded
+- [kickscondor/fraidycat](https://github.com/kickscondor/fraidycat) - Follow blogs, wikis, YouTube channels, as well as accounts on Twitter, Instagram, etc. from a single page.
+- [jacobcxdev/FBSpNOsor](https://github.com/jacobcxdev/FBSpNOsor) - A tweak to remove sponsored and suggested posts, videos, etc. from Facebook — written in Objective-C + Logos.
+- [oliyh/tinybeans-archive](https://github.com/oliyh/tinybeans-archive) - Create an archive of a tinybeans journal
+- [JohnCoates/Aerial](https://github.com/JohnCoates/Aerial) - Apple TV Aerial Screensaver for Mac
+- [philsmd/itunes_backup2hashcat](https://github.com/philsmd/itunes_backup2hashcat) - Extract the information needed from the Manifest.plist files to convert it to hashes compatible with hashcat
+- [gnif/LookingGlass](https://github.com/gnif/LookingGlass) - An extremely low latency KVMFR (KVM FrameRelay) implementation for guests with VGA PCI Passthrough.
+- [jimsalterjrs/sanoid](https://github.com/jimsalterjrs/sanoid) - Policy-driven snapshot management and replication tools.  Using ZFS for underlying next-gen storage. (Btrfs support plans are shelved unless and until btrfs becomes reliable.) Primarily intended for L
+- [amgxv/SpotifyAdBlocker-macOS](https://github.com/amgxv/SpotifyAdBlocker-macOS) - Block Spotify Ads on macOS
 - [vamshinath/imagesGoogleNamer](https://github.com/vamshinath/imagesGoogleNamer) - renames images using reverse google image search
+- [54mv39/web](https://github.com/54mv39/web) - Add tracker Functionality to Transmission Remote Web Interface
 - [tokland/youtube-upload](https://github.com/tokland/youtube-upload) - Upload videos to Youtube from the command line
 - [remorses/youtube-video-upload](https://github.com/remorses/youtube-video-upload) - Upload videos starting from a declarative yaml file
+- [evaan/rainpi](https://github.com/evaan/rainpi) - rainpi is a tool that allows you to turn your raspberry pi into a checkra1n dongle.
+- [Qata/BarMagnet](https://github.com/Qata/BarMagnet) - An iOS app that interfaces with remote torrent clients
+- [CloverHackyColor/CloverBootloader](https://github.com/CloverHackyColor/CloverBootloader) - Bootloader for macOS, Windows and Linux in UEFI and in legacy mode
+- [2600box/MegaKeep](https://github.com/2600box/MegaKeep) - Log into multiple mega.nz accounts to keep files from being deleted
+- [notiflux/OpenCore-Configurator](https://github.com/notiflux/OpenCore-Configurator) - A configurator for the OpenCore Bootloader
+- [rusty-bits/OC-tool](https://github.com/rusty-bits/OC-tool) - POSIX shell script that builds an OpenCore EFI folder from an OpenCore config.plist
+- [tihmstar/tsschecker](https://github.com/tihmstar/tsschecker) - a powerfull tool to check tss signing status of various devices and firmwares
+- [Nielk1/VSCView](https://github.com/Nielk1/VSCView) - OSD for Steam Controller and various other controllers
+- [sicreative/VoltageShift](https://github.com/sicreative/VoltageShift) - undervoltage Tools for MacOS
+- [animosity22/homescripts](https://github.com/animosity22/homescripts) - My Scripts for Plex / Emby with Dropbox and rclone
 - [markusj/znc-modules](https://github.com/markusj/znc-modules) - Custom modules/helpers for ZNC
-- [kz26/dottorrent-gui](https://github.com/kz26/dottorrent-gui) - An advanced GUI torrent file creator with batch functionality, powered by PyQt and dottorrent
+- [borishonman/cydownload](https://github.com/borishonman/cydownload) - 
+- [dictcp/wangfonts](https://github.com/dictcp/wangfonts) - Automatically exported from code.google.com/p/wangfonts
+- [FWeinb/rclone-js](https://github.com/FWeinb/rclone-js) - Encrypt/Decrypt files in your browser
 - [harvest-project/harvest](https://github.com/harvest-project/harvest) - End-to-end user friendly and scalable torrenting server
+- [TheCrypt0/yi-hack-v4](https://github.com/TheCrypt0/yi-hack-v4) - New Custom Firmware for Xiaomi Cameras based on Hi3518e Chipset. It features RTSP, SSH, FTP and more!
+- [pwn20wndstuff/Undecimus](https://github.com/pwn20wndstuff/Undecimus) - unc0ver jailbreak for iOS 11.0 - 12.4
+- [PoomSmart/EmojiLayout](https://github.com/PoomSmart/EmojiLayout) - Adjust rows and columns number of emoji page.
+- [PoomSmart/EmojiPort-WT](https://github.com/PoomSmart/EmojiPort-WT) - Latest emojis for iOS 10.0 - 11.4
+- [objective-see/LuLu](https://github.com/objective-see/LuLu) - LuLu is the free macOS firewall
+- [PsychoTea/MeridianJB](https://github.com/PsychoTea/MeridianJB) - An iOS 10.x Jailbreak for all 64-bit devices.
+- [qinkangdeid/z370n-wifi-hackintosh](https://github.com/qinkangdeid/z370n-wifi-hackintosh) - 技嘉主板(Z370N-WIFI)黑苹果EFI文件 查看
 - [slingamn/namespaced-openvpn](https://github.com/slingamn/namespaced-openvpn) - Wrapper for OpenVPN on Linux solving various privacy issues
+- [iancoleman/bip39](https://github.com/iancoleman/bip39) - A web tool for converting BIP39 mnemonic codes
+- [xbbricker/ccminer-cryptonight-mac](https://github.com/xbbricker/ccminer-cryptonight-mac) - Binaries for CUDA mining on macOS
+- [dinosec/iphone-dataprotection](https://github.com/dinosec/iphone-dataprotection) - 
 - [philspins/redbetter](https://github.com/philspins/redbetter) - Automatic transcoding for Redacted
+- [fpunktk/raspi-fde](https://github.com/fpunktk/raspi-fde) - raspberry pi with full disk encryption and remote unlock
 - [jimrollenhagen/pywhatauto](https://github.com/jimrollenhagen/pywhatauto) - IRC bot to auto-download torrents and more.
 - [Mechazawa/REDBetter-crawler](https://github.com/Mechazawa/REDBetter-crawler) - A fork of whatbetter that can run autonomously
-- [pyroscope/auvyon](https://github.com/pyroscope/auvyon) - AuVyon collects little helpers to handle media data.
+- [hthighway/scripts](https://github.com/hthighway/scripts) - various scripts and tool
+- [chros73/rtorrent-ps-ch](https://github.com/chros73/rtorrent-ps-ch) - :art: Extended rTorrent distribution with UI enhancements, colorization, and some added features.
 - [l3uddz/unionfs_cleaner](https://github.com/l3uddz/unionfs_cleaner) - Perform scan of .unionfs folder for _HIDDEN~ files, if file exists on remote, delete it and the _HIDDEN~ file. Perform automated rclone moves on your local media when X gigabytes has been reached and 
 - [mdavis-xyz/Pandora-Export](https://github.com/mdavis-xyz/Pandora-Export) - Export your thumb up and thumb down list your Pandora Music Account
+- [Val/dedibox_fully_encrypted_debian_install](https://github.com/Val/dedibox_fully_encrypted_debian_install) - Dedibox Fully Encrypted Debian Install
+- [karamanolev/WhatManager2](https://github.com/karamanolev/WhatManager2) - Torrent management system based on Django and Transmission
+- [xerub/extra_recipe](https://github.com/xerub/extra_recipe) - Exception-oriented exploitation by Ian Beer
+- [guillaumekh/iTMS-Tags-Remover](https://github.com/guillaumekh/iTMS-Tags-Remover) - iTunes Music Store personal data cleaner. Removes identifying tags from .m4a files.
+- [spotlightishere/iOS-sbutils](https://github.com/spotlightishere/iOS-sbutils) - iOS utilities - replaces some broken Erica utilities and adds a bunch of new ones. This has a couple hotfixes.
+- [Siguza/ios-kern-utils](https://github.com/Siguza/ios-kern-utils) - iOS Kernel utilities
+- [alexwasserman/ZFSStatusScript](https://github.com/alexwasserman/ZFSStatusScript) - Menu bar app to provide ZFS zpool status
+- [mmozeiko/RcloneBrowser](https://github.com/mmozeiko/RcloneBrowser) - Simple cross platform GUI for rclone
+- [kpwn/yalu102](https://github.com/kpwn/yalu102) - incomplete iOS 10.2 jailbreak for 64 bit devices by qwertyoruiopz and marcograssi
+- [tihmstar/noncestatistics](https://github.com/tihmstar/noncestatistics) - a simple tool to get a bunch of ApNonces from iOS devices
+- [rakshasa/libtorrent](https://github.com/rakshasa/libtorrent) - libTorrent BitTorrent library
+- [rakshasa/rtorrent](https://github.com/rakshasa/rtorrent) - rTorrent BitTorrent client
+- [pyroscope/homebrew-rtorrent-ps](https://github.com/pyroscope/homebrew-rtorrent-ps) - :construction: [ORPHANED / INACTIVE] Homebrew tap for rTorrent-PS, an extended rTorrent distribution with UI enhancements, colorization, and some added features.
+- [TSSSaver/TSSSaver](https://github.com/TSSSaver/TSSSaver) - An online interface for TSSChecker.
+
+## golang 
+
+- [tobychui/zoraxy](https://github.com/tobychui/zoraxy) - General purpose request (reverse) proxy and forwarding tool for low power devices. Now written in Go!
+- [seriousm4x/UpSnap](https://github.com/seriousm4x/UpSnap) - A simple wake on lan web app written with SvelteKit, Go, PocketBase and nmap
+- [ddosify/ddosify](https://github.com/ddosify/ddosify) - Comprehensive Performance Testing Platform. Available on CLI, Self-Hosted, and Cloud - https://ddosify.com 🚀
+- [aceberg/WatchYourLAN](https://github.com/aceberg/WatchYourLAN) - Lightweight network IP scanner with web GUI
+- [favonia/cloudflare-ddns](https://github.com/favonia/cloudflare-ddns) - 🌟 A small (&lt; 3MB), feature-rich, and robust Cloudflare DDNS updater
+- [extremecoders-re/go-dispatch-proxy](https://github.com/extremecoders-re/go-dispatch-proxy) - SOCKS5/Transparent load balancing proxy developed in Go, combines multiple internet connections
+- [rclone/rclone](https://github.com/rclone/rclone) - "rsync for cloud storage" - Google Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Wasabi, Google Cloud Storage, Yandex Files
+
+## server 
+
+- [tobychui/zoraxy](https://github.com/tobychui/zoraxy) - General purpose request (reverse) proxy and forwarding tool for low power devices. Now written in Go!
+
+## windows 
+
+- [SevaSk/ecoute](https://github.com/SevaSk/ecoute) - Ecoute is a live transcription tool that provides real-time transcripts for both the user's microphone input (You) and the user's speakers output (Speaker) in a textbox. It also generates a suggested 
+- [carlospolop/PEASS-ng](https://github.com/carlospolop/PEASS-ng) - PEASS - Privilege Escalation Awesome Scripts SUITE (with colors)
+- [jwallet/spy-spotify](https://github.com/jwallet/spy-spotify) - 🎤 Records Spotify to mp3 without ads and adds media tags to the files 🎵
+- [brave/browser-laptop](https://github.com/brave/browser-laptop) - [DEPRECATED] Please see https://github.com/brave/brave-browser for the current version of Brave
+
+## hacktoberfest 
+
+- [oncleben31/home-assistant-config](https://github.com/oncleben31/home-assistant-config) - Ma configuration Home Assistant commentée en anglais et en français | My Home Assistant config with French and English comments.
+- [XorTroll/Goldleaf](https://github.com/XorTroll/Goldleaf) - 🍂 Multipurpose homebrew tool for Nintendo Switch
+- [ddosify/ddosify](https://github.com/ddosify/ddosify) - Comprehensive Performance Testing Platform. Available on CLI, Self-Hosted, and Cloud - https://ddosify.com 🚀
+- [monicahq/monica](https://github.com/monicahq/monica) - Personal CRM. Remember everything about your friends, family and business relationships.
+- [sergiotapia/torrentinim](https://github.com/sergiotapia/torrentinim) - A very low memory-footprint, self hosted API-only torrent search engine. Sonarr + Radarr Compatible, native support for Linux, Mac and Windows.
+- [goauthentik/authentik](https://github.com/goauthentik/authentik) - The authentication glue you need.
+- [Connum/hanzivg](https://github.com/Connum/hanzivg) - Stroke order SVG files for Chinese Hanzi characters
+- [plexdrive/plexdrive](https://github.com/plexdrive/plexdrive) - Plexdrive mounts your Google Drive FUSE filesystem (optimized for media playback)
+
+## home-assistant 
+
+- [oncleben31/home-assistant-config](https://github.com/oncleben31/home-assistant-config) - Ma configuration Home Assistant commentée en anglais et en français | My Home Assistant config with French and English comments.
+- [tteck/Proxmox](https://github.com/tteck/Proxmox) - Proxmox VE Helper Scripts
+
+## docker 
+
+- [ahmetoner/whisper-asr-webservice](https://github.com/ahmetoner/whisper-asr-webservice) - OpenAI Whisper ASR Webservice API
+- [mandarons/icloud-drive-docker](https://github.com/mandarons/icloud-drive-docker) - Dockerized iCloud Client - make a local copy of your iCloud documents and photos, and keep it automatically up-to-date.
+- [ddosify/ddosify](https://github.com/ddosify/ddosify) - Comprehensive Performance Testing Platform. Available on CLI, Self-Hosted, and Cloud - https://ddosify.com 🚀
+- [lawndoc/foxception](https://github.com/lawndoc/foxception) - Isolated Firefox browser with pre-configured extensions. Customize with your own extensions as needed.
+- [aceberg/WatchYourLAN](https://github.com/aceberg/WatchYourLAN) - Lightweight network IP scanner with web GUI
+- [containrrr/shepherd](https://github.com/containrrr/shepherd) - Docker swarm service for automatically updating your services whenever their image is refreshed
+- [favonia/cloudflare-ddns](https://github.com/favonia/cloudflare-ddns) - 🌟 A small (&lt; 3MB), feature-rich, and robust Cloudflare DDNS updater
+- [Rhizome-Conifer/conifer](https://github.com/Rhizome-Conifer/conifer) - Collect and revisit web pages.
+
+## homebrew 
+
+- [XorTroll/Goldleaf](https://github.com/XorTroll/Goldleaf) - 🍂 Multipurpose homebrew tool for Nintendo Switch
+
+## self-hosted 
+
+- [zurdi15/romm](https://github.com/zurdi15/romm) - RomM (Rom Manager) is a web based retro roms manager integrated with IGDB.
+- [intri-in/manage-my-damn-life-nextjs](https://github.com/intri-in/manage-my-damn-life-nextjs) - Manage My Damn Life (MMDL) is a self-hosted front end for managing your CalDAV tasks and calendars.
+- [babybuddy/babybuddy](https://github.com/babybuddy/babybuddy) - A :baby: buddy to help caregivers track sleep, feedings, diaper changes, and tummy time to learn about and predict baby's needs without (as much) guess work.
+- [sergiotapia/magnetissimo](https://github.com/sergiotapia/magnetissimo) - Web application that indexes all popular torrent sites, and saves it to the local database.
+- [advplyr/audiobookshelf](https://github.com/advplyr/audiobookshelf) - Self-hosted audiobook and podcast server
+- [aceberg/WatchYourLAN](https://github.com/aceberg/WatchYourLAN) - Lightweight network IP scanner with web GUI
+- [tteck/Proxmox](https://github.com/tteck/Proxmox) - Proxmox VE Helper Scripts
+- [sergiotapia/torrentinim](https://github.com/sergiotapia/torrentinim) - A very low memory-footprint, self hosted API-only torrent search engine. Sonarr + Radarr Compatible, native support for Linux, Mac and Windows.
+- [immich-app/immich](https://github.com/immich-app/immich) - Self-hosted photo and video backup solution directly from your mobile phone.
+
+## open-source 
+
+- [meichthys/foss_photo_libraries](https://github.com/meichthys/foss_photo_libraries) - Free and Open Source Photo Libraries
+
+## nodejs 
+
+- [josephrcox/easy-reddit-downloader](https://github.com/josephrcox/easy-reddit-downloader) - Simple & Powerful Reddit Post Downloader
+- [immich-app/immich](https://github.com/immich-app/immich) - Self-hosted photo and video backup solution directly from your mobile phone.
+- [Flood-UI/flood](https://github.com/Flood-UI/flood) - A web UI for rTorrent, qBittorrent and Transmission with a Node.js backend and React frontend. Migrate to v4: https://github.com/jesec/flood/wiki/Migrate-from-older-versions-of-Flood.
+
+## python3 
+
+- [shadowmoose/RedditDownloader](https://github.com/shadowmoose/RedditDownloader) - Scrapes Reddit to download media of your choice.
+- [kz26/dottorrent-gui](https://github.com/kz26/dottorrent-gui) - An advanced GUI torrent file creator with batch functionality, powered by PyQt and dottorrent
+
+## reactjs 
+
+- [shadowmoose/RedditDownloader](https://github.com/shadowmoose/RedditDownloader) - Scrapes Reddit to download media of your choice.
+- [hotosm/tasking-manager](https://github.com/hotosm/tasking-manager) - Tasking Manager - The tool to team up for mapping in OpenStreetMap
+
+## ios 
+
+- [MaxiHuHe04/iTunes-Backup-Explorer](https://github.com/MaxiHuHe04/iTunes-Backup-Explorer) - A graphical tool that can extract and replace files from encrypted and non-encrypted iOS backups
+- [astubenbord/paperless-mobile](https://github.com/astubenbord/paperless-mobile) - An (almost) fully fledged mobile paperless client.
+- [bauerj/paperless_app](https://github.com/bauerj/paperless_app) - An Android/iOS app for Paperless
+- [yattee/yattee](https://github.com/yattee/yattee) - Privacy oriented video player for iOS, tvOS and macOS
+- [mhdhejazi/CoronaTracker](https://github.com/mhdhejazi/CoronaTracker) - Coronavirus tracker app for iOS & macOS with maps & charts
+- [PopcornTimeTV/PopcornTimeTV](https://github.com/PopcornTimeTV/PopcornTimeTV) - Popcorn Time for Apple TV 4, iPhone and iPad
+- [XITRIX/iTorrent](https://github.com/XITRIX/iTorrent) - Torrent client for iOS 9.3+
+- [airsquared/blobsaver](https://github.com/airsquared/blobsaver) - A cross-platform GUI and CLI app for automatically saving SHSH blobs
+- [nathanaccidentally/SystemHostsBlocker](https://github.com/nathanaccidentally/SystemHostsBlocker) - A simple host blocker built for speed.
+
+## cli 
+
+- [BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep) - ripgrep recursively searches directories for a regex pattern while respecting your gitignore
+
+## rust 
+
+- [BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep) - ripgrep recursively searches directories for a regex pattern while respecting your gitignore
+- [toeverything/AFFiNE](https://github.com/toeverything/AFFiNE) - There can be more than Notion and Miro. AFFiNE is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use.
+
+## python 
+
+- [coqui-ai/TTS](https://github.com/coqui-ai/TTS) - 🐸💬 - a deep learning toolkit for Text-to-Speech, battle-tested in research and production
+- [babybuddy/babybuddy](https://github.com/babybuddy/babybuddy) - A :baby: buddy to help caregivers track sleep, feedings, diaper changes, and tummy time to learn about and predict baby's needs without (as much) guess work.
+- [dmunozv04/iSponsorBlockTV](https://github.com/dmunozv04/iSponsorBlockTV) - Automatically skip sponsor segments in YouTube videos playing on Apple TV.
+- [dwgrigsby/TranscribeVoiceFile2Text](https://github.com/dwgrigsby/TranscribeVoiceFile2Text) - Transcribe Voice File to Text
+- [hotosm/tasking-manager](https://github.com/hotosm/tasking-manager) - Tasking Manager - The tool to team up for mapping in OpenStreetMap
+- [kz26/dottorrent-gui](https://github.com/kz26/dottorrent-gui) - An advanced GUI torrent file creator with batch functionality, powered by PyQt and dottorrent
+- [pyroscope/auvyon](https://github.com/pyroscope/auvyon) - AuVyon collects little helpers to handle media data.
 - [Rhizome-Conifer/conifer](https://github.com/Rhizome-Conifer/conifer) - Collect and revisit web pages.
 - [pyroscope/pyrocore](https://github.com/pyroscope/pyrocore) - :wrench: A collection of tools for the BitTorrent protocol and especially the rTorrent client
 
-## Ruby 
+## deep-learning 
 
-- [hartator/wayback-machine-downloader](https://github.com/hartator/wayback-machine-downloader) - Download an entire website from the Wayback Machine.
-- [huginn/huginn](https://github.com/huginn/huginn) - Create agents that monitor and act on your behalf.  Your agents are standing by!
+- [coqui-ai/TTS](https://github.com/coqui-ai/TTS) - 🐸💬 - a deep learning toolkit for Text-to-Speech, battle-tested in research and production
+- [junyanz/interactive-deep-colorization](https://github.com/junyanz/interactive-deep-colorization) - Deep learning software for colorizing black and white images with a few clicks.
 
-## Rust 
+## pytorch 
 
-- [IgnisDa/ryot](https://github.com/IgnisDa/ryot) - Roll your own tracker!
-- [BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep) - ripgrep recursively searches directories for a regex pattern while respecting your gitignore
+- [coqui-ai/TTS](https://github.com/coqui-ai/TTS) - 🐸💬 - a deep learning toolkit for Text-to-Speech, battle-tested in research and production
+
+## android 
+
+- [astubenbord/paperless-mobile](https://github.com/astubenbord/paperless-mobile) - An (almost) fully fledged mobile paperless client.
+- [bauerj/paperless_app](https://github.com/bauerj/paperless_app) - An Android/iOS app for Paperless
+
+## dart 
+
+- [astubenbord/paperless-mobile](https://github.com/astubenbord/paperless-mobile) - An (almost) fully fledged mobile paperless client.
+
+## flutter 
+
+- [astubenbord/paperless-mobile](https://github.com/astubenbord/paperless-mobile) - An (almost) fully fledged mobile paperless client.
+- [immich-app/immich](https://github.com/immich-app/immich) - Self-hosted photo and video backup solution directly from your mobile phone.
+
+## django 
+
+- [babybuddy/babybuddy](https://github.com/babybuddy/babybuddy) - A :baby: buddy to help caregivers track sleep, feedings, diaper changes, and tummy time to learn about and predict baby's needs without (as much) guess work.
+
+## p2p 
+
+- [sergiotapia/magnetissimo](https://github.com/sergiotapia/magnetissimo) - Web application that indexes all popular torrent sites, and saves it to the local database.
+- [sergiotapia/torrentinim](https://github.com/sergiotapia/torrentinim) - A very low memory-footprint, self hosted API-only torrent search engine. Sonarr + Radarr Compatible, native support for Linux, Mac and Windows.
+- [fatedier/frp](https://github.com/fatedier/frp) - A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.
+- [kz26/dottorrent-gui](https://github.com/kz26/dottorrent-gui) - An advanced GUI torrent file creator with batch functionality, powered by PyQt and dottorrent
+- [monero-project/monero](https://github.com/monero-project/monero) - Monero: the secure, private, untraceable cryptocurrency
+
+## swift 
+
+- [LeoKlaus/Paperparrot](https://github.com/LeoKlaus/Paperparrot) - A native Swift app to manage all your documents. Fully compatible with Paperless-ngx
+- [cweirup/JoplinSafariWebClipper](https://github.com/cweirup/JoplinSafariWebClipper) - Safari App Extension for Joplin Web Clipper
+- [yattee/yattee](https://github.com/yattee/yattee) - Privacy oriented video player for iOS, tvOS and macOS
+- [mhdhejazi/CoronaTracker](https://github.com/mhdhejazi/CoronaTracker) - Coronavirus tracker app for iOS & macOS with maps & charts
+
+## swiftui 
+
+- [LeoKlaus/Paperparrot](https://github.com/LeoKlaus/Paperparrot) - A native Swift app to manage all your documents. Fully compatible with Paperless-ngx
+- [yattee/yattee](https://github.com/yattee/yattee) - Privacy oriented video player for iOS, tvOS and macOS
+
+## terminal 
+
 - [fathyb/carbonyl](https://github.com/fathyb/carbonyl) - Chromium running inside your terminal
+
+## go 
+
+- [ddosify/ddosify](https://github.com/ddosify/ddosify) - Comprehensive Performance Testing Platform. Available on CLI, Self-Hosted, and Cloud - https://ddosify.com 🚀
+- [favonia/cloudflare-ddns](https://github.com/favonia/cloudflare-ddns) - 🌟 A small (&lt; 3MB), feature-rich, and robust Cloudflare DDNS updater
+- [fatedier/frp](https://github.com/fatedier/frp) - A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.
+- [extremecoders-re/go-dispatch-proxy](https://github.com/extremecoders-re/go-dispatch-proxy) - SOCKS5/Transparent load balancing proxy developed in Go, combines multiple internet connections
+- [rclone/rclone](https://github.com/rclone/rclone) - "rsync for cloud storage" - Google Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic, Wasabi, Google Cloud Storage, Yandex Files
+
+## javascript 
+
+- [MichMich/MagicMirror](https://github.com/MichMich/MagicMirror) - MagicMirror² is an open source modular smart mirror platform. With a growing list of installable modules, the MagicMirror² allows you to convert your hallway or bathroom mirror into your personal assi
+- [hotosm/tasking-manager](https://github.com/hotosm/tasking-manager) - Tasking Manager - The tool to team up for mapping in OpenStreetMap
+- [brave/browser-laptop](https://github.com/brave/browser-laptop) - [DEPRECATED] Please see https://github.com/brave/brave-browser for the current version of Brave
+
+## raspberry-pi 
+
+- [MichMich/MagicMirror](https://github.com/MichMich/MagicMirror) - MagicMirror² is an open source modular smart mirror platform. With a growing list of installable modules, the MagicMirror² allows you to convert your hallway or bathroom mirror into your personal assi
+
+## reverse-engineering 
+
 - [ReagentX/imessage-exporter](https://github.com/ReagentX/imessage-exporter) - Export iMessage data + run iMessage Diagnostics
 
-## Shell 
+## svelte 
 
-- [piscue/docker-backup-scripts](https://github.com/piscue/docker-backup-scripts) - Scripting to backup all your running containers
-- [lalanza808/docker-monero-node](https://github.com/lalanza808/docker-monero-node) - Simple way to run a Monero daemon with some basic monitoring tools packaged in.
-- [containrrr/shepherd](https://github.com/containrrr/shepherd) - Docker swarm service for automatically updating your services whenever their image is refreshed
-- [inthreedee/photoprism-transfer-album](https://github.com/inthreedee/photoprism-transfer-album) - Transfer a Google Photos album to a new Photoprism album
-- [tteck/Proxmox](https://github.com/tteck/Proxmox) - Proxmox VE Helper Scripts
-- [boredazfcuk/docker-icloudpd](https://github.com/boredazfcuk/docker-icloudpd) - An Alpine Linux 3.17.3 container for the iCloud Photos Downloader command line utility
-- [userdocs/python-libtorrent-binding](https://github.com/userdocs/python-libtorrent-binding) - A build script for python-libtorrent bindings using current dependencies with minimal system footprint
-- [amgxv/SpotifyAdBlocker-macOS](https://github.com/amgxv/SpotifyAdBlocker-macOS) - Block Spotify Ads on macOS
-- [evaan/rainpi](https://github.com/evaan/rainpi) - rainpi is a tool that allows you to turn your raspberry pi into a checkra1n dongle.
-- [rusty-bits/OC-tool](https://github.com/rusty-bits/OC-tool) - POSIX shell script that builds an OpenCore EFI folder from an OpenCore config.plist
-- [animosity22/homescripts](https://github.com/animosity22/homescripts) - My Scripts for Plex / Emby with Dropbox and rclone
-- [TheCrypt0/yi-hack-v4](https://github.com/TheCrypt0/yi-hack-v4) - New Custom Firmware for Xiaomi Cameras based on Hi3518e Chipset. It features RTSP, SSH, FTP and more!
-- [hthighway/scripts](https://github.com/hthighway/scripts) - various scripts and tool
-- [pyroscope/pimp-my-box](https://github.com/pyroscope/pimp-my-box) - :seedling: Automated seedbox install of rTorrent-PS and PyroScope CLI etc. via Ansible.
-- [guillaumekh/iTMS-Tags-Remover](https://github.com/guillaumekh/iTMS-Tags-Remover) - iTunes Music Store personal data cleaner. Removes identifying tags from .m4a files.
-- [nathanaccidentally/SystemHostsBlocker](https://github.com/nathanaccidentally/SystemHostsBlocker) - A simple host blocker built for speed.
-
-## Svelte 
-
-- [seriousm4x/UpSnap](https://github.com/seriousm4x/UpSnap) - A simple wake on lan web app written with SvelteKit, Go, PocketBase and nmap
 - [haishanh/cherry](https://github.com/haishanh/cherry) - Cherry is a self-hostable bookmark service
+- [immich-app/immich](https://github.com/immich-app/immich) - Self-hosted photo and video backup solution directly from your mobile phone.
 
-## Swift 
+## ai 
 
-- [yattee/yattee](https://github.com/yattee/yattee) - Privacy oriented video player for iOS, tvOS and macOS
-- [cormiertyshawn895/Retroactive](https://github.com/cormiertyshawn895/Retroactive) - Run Aperture, iPhoto, and iTunes on macOS Ventura, macOS Monterey, macOS Big Sur, and macOS Catalina. Xcode 11.7 on macOS Mojave. Final Cut Pro 7, Logic Pro 9, and iWork ’09 on macOS Mojave or macOS H
-- [mhdhejazi/CoronaTracker](https://github.com/mhdhejazi/CoronaTracker) - Coronavirus tracker app for iOS & macOS with maps & charts
-- [JohnCoates/Aerial](https://github.com/JohnCoates/Aerial) - Apple TV Aerial Screensaver for Mac
-- [PopcornTimeTV/PopcornTimeTV](https://github.com/PopcornTimeTV/PopcornTimeTV) - Popcorn Time for Apple TV 4, iPhone and iPad
-- [XITRIX/iTorrent](https://github.com/XITRIX/iTorrent) - Torrent client for iOS 9.3+
-- [notiflux/OpenCore-Configurator](https://github.com/notiflux/OpenCore-Configurator) - A configurator for the OpenCore Bootloader
+- [upscayl/upscayl](https://github.com/upscayl/upscayl) - 🆙 Upscayl - Free and Open Source AI Image Upscaler for Linux, MacOS and Windows built with Linux-First philosophy.
 
-## TypeScript 
+## electron 
 
-- [relvacode/storm](https://github.com/relvacode/storm) - A Modern Deluge Interface
-- [jonluca/mimessage](https://github.com/jonluca/mimessage) - iMessage Wrapped, Semantic Search, and AI Chats
-- [pdfernhout/narrafirma](https://github.com/pdfernhout/narrafirma) - Single-page web app for Participatory Narrative Inquiry (PNI)
 - [upscayl/upscayl](https://github.com/upscayl/upscayl) - 🆙 Upscayl - Free and Open Source AI Image Upscaler for Linux, MacOS and Windows built with Linux-First philosophy.
 - [toeverything/AFFiNE](https://github.com/toeverything/AFFiNE) - There can be more than Notion and Miro. AFFiNE is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use.
-- [visini/obsidian-icons-plugin](https://github.com/visini/obsidian-icons-plugin) - Add icons to your Obsidian notes – Experimental Obsidian Plugin
+- [brave/browser-laptop](https://github.com/brave/browser-laptop) - [DEPRECATED] Please see https://github.com/brave/brave-browser for the current version of Brave
 
-## XSLT 
+## twitter 
 
-- [rouseabout/heisig](https://github.com/rouseabout/heisig) - Remembering Simplified Hanzi Project
+- [libredirect/browser_extension](https://github.com/libredirect/browser_extension) - A browser extension that redirects popular sites to alternative privacy friendly frontends
+- [huginn/huginn](https://github.com/huginn/huginn) - Create agents that monitor and act on your behalf.  Your agents are standing by!
+- [RipMeApp/ripme](https://github.com/RipMeApp/ripme) - Downloads albums in bulk
+
+## chrome-extension 
+
+- [libredirect/browser_extension](https://github.com/libredirect/browser_extension) - A browser extension that redirects popular sites to alternative privacy friendly frontends
+
+## firefox 
+
+- [lawndoc/foxception](https://github.com/lawndoc/foxception) - Isolated Firefox browser with pre-configured extensions. Customize with your own extensions as needed.
+
+## laravel 
+
+- [monicahq/monica](https://github.com/monicahq/monica) - Personal CRM. Remember everything about your friends, family and business relationships.
+
+## php 
+
+- [monicahq/monica](https://github.com/monicahq/monica) - Personal CRM. Remember everything about your friends, family and business relationships.
+
+## markdown 
+
+- [toeverything/AFFiNE](https://github.com/toeverything/AFFiNE) - There can be more than Notion and Miro. AFFiNE is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use.
+
+## bash 
+
+- [devmount/CheatSheets](https://github.com/devmount/CheatSheets) - A curated list of everything I look up more than twice
+- [carlospolop/PEASS-ng](https://github.com/carlospolop/PEASS-ng) - PEASS - Privilege Escalation Awesome Scripts SUITE (with colors)
+
+## git 
+
+- [devmount/CheatSheets](https://github.com/devmount/CheatSheets) - A curated list of everything I look up more than twice
+
+## npm 
+
+- [devmount/CheatSheets](https://github.com/devmount/CheatSheets) - A curated list of everything I look up more than twice
+
+## visual-studio-code 
+
+- [devmount/CheatSheets](https://github.com/devmount/CheatSheets) - A curated list of everything I look up more than twice
+
+## linux 
+
+- [carlospolop/PEASS-ng](https://github.com/carlospolop/PEASS-ng) - PEASS - Privilege Escalation Awesome Scripts SUITE (with colors)
+- [brave/browser-laptop](https://github.com/brave/browser-laptop) - [DEPRECATED] Please see https://github.com/brave/brave-browser for the current version of Brave
+
+## shell 
+
+- [carlospolop/PEASS-ng](https://github.com/carlospolop/PEASS-ng) - PEASS - Privilege Escalation Awesome Scripts SUITE (with colors)
+
+## csharp 
+
+- [carlospolop/PEASS-ng](https://github.com/carlospolop/PEASS-ng) - PEASS - Privilege Escalation Awesome Scripts SUITE (with colors)
+
+## kubernetes 
+
+- [goauthentik/authentik](https://github.com/goauthentik/authentik) - The authentication glue you need.
+
+## security 
+
+- [goauthentik/authentik](https://github.com/goauthentik/authentik) - The authentication glue you need.
+- [monero-project/monero](https://github.com/monero-project/monero) - Monero: the secure, private, untraceable cryptocurrency
+
+## macos 
+
+- [yattee/yattee](https://github.com/yattee/yattee) - Privacy oriented video player for iOS, tvOS and macOS
+- [brave/browser-laptop](https://github.com/brave/browser-laptop) - [DEPRECATED] Please see https://github.com/brave/brave-browser for the current version of Brave
+- [w0lfschild/spotifyPlus](https://github.com/w0lfschild/spotifyPlus) - 🎵 MacForge plugin to enhance the Spotify Desktop player on macOS
+
+## automation 
+
+- [huginn/huginn](https://github.com/huginn/huginn) - Create agents that monitor and act on your behalf.  Your agents are standing by!
+- [JohnDoee/autotorrent](https://github.com/JohnDoee/autotorrent) - Matches torrents with files and gets them seeded
+
+## monitoring 
+
+- [huginn/huginn](https://github.com/huginn/huginn) - Create agents that monitor and act on your behalf.  Your agents are standing by!
+
+## music 
+
+- [jwallet/spy-spotify](https://github.com/jwallet/spy-spotify) - 🎤 Records Spotify to mp3 without ads and adds media tags to the files 🎵
+
+## google-cloud 
+
+- [dwgrigsby/TranscribeVoiceFile2Text](https://github.com/dwgrigsby/TranscribeVoiceFile2Text) - Transcribe Voice File to Text
+
+## mac 
+
+- [dwgrigsby/TranscribeVoiceFile2Text](https://github.com/dwgrigsby/TranscribeVoiceFile2Text) - Transcribe Voice File to Text
+- [cbreak-black/ZetaWatch](https://github.com/cbreak-black/ZetaWatch) - ZFS OSX Menu Bar widget
+
+## java 
+
+- [RipMeApp/ripme](https://github.com/RipMeApp/ripme) - Downloads albums in bulk
+- [airsquared/blobsaver](https://github.com/airsquared/blobsaver) - A cross-platform GUI and CLI app for automatically saving SHSH blobs
+
+## good-first-issue 
+
+- [RipMeApp/ripme](https://github.com/RipMeApp/ripme) - Downloads albums in bulk
+
+## covid-19 
+
+- [mhdhejazi/CoronaTracker](https://github.com/mhdhejazi/CoronaTracker) - Coronavirus tracker app for iOS & macOS with maps & charts
+- [CSSEGISandData/COVID-19](https://github.com/CSSEGISandData/COVID-19) - Novel Coronavirus (COVID-19) Cases, provided by JHU CSSE
+
+## computer-vision 
+
+- [junyanz/interactive-deep-colorization](https://github.com/junyanz/interactive-deep-colorization) - Deep learning software for colorizing black and white images with a few clicks.
+
+## react 
+
+- [Flood-UI/flood](https://github.com/Flood-UI/flood) - A web UI for rTorrent, qBittorrent and Transmission with a Node.js backend and React frontend. Migrate to v4: https://github.com/jesec/flood/wiki/Migrate-from-older-versions-of-Flood.
+
+## flask 
+
+- [hotosm/tasking-manager](https://github.com/hotosm/tasking-manager) - Tasking Manager - The tool to team up for mapping in OpenStreetMap
+
+## postgresql 
+
+- [hotosm/tasking-manager](https://github.com/hotosm/tasking-manager) - Tasking Manager - The tool to team up for mapping in OpenStreetMap
+
+## javafx 
+
+- [airsquared/blobsaver](https://github.com/airsquared/blobsaver) - A cross-platform GUI and CLI app for automatically saving SHSH blobs
+
+## monero 
+
+- [monero-project/monero](https://github.com/monero-project/monero) - Monero: the secure, private, untraceable cryptocurrency
+
+## cryptocurrency 
+
+- [monero-project/monero](https://github.com/monero-project/monero) - Monero: the secure, private, untraceable cryptocurrency
+- [chrislennon/Crypto-Touchbar-App](https://github.com/chrislennon/Crypto-Touchbar-App) - A web app to build Apple touch bar elements for crytpo currencies. Requires BetterTouchTool. Supports wide range of cryptos and converts to a variety of fiat monies.
+
+## blockchain 
+
+- [monero-project/monero](https://github.com/monero-project/monero) - Monero: the secure, private, untraceable cryptocurrency
+
+## bitcoin 
+
+- [chrislennon/Crypto-Touchbar-App](https://github.com/chrislennon/Crypto-Touchbar-App) - A web app to build Apple touch bar elements for crytpo currencies. Requires BetterTouchTool. Supports wide range of cryptos and converts to a variety of fiat monies.
+
+## numpy 
+
+- [pyroscope/auvyon](https://github.com/pyroscope/auvyon) - AuVyon collects little helpers to handle media data.
+
+## c 
+
+- [btpd/btpd](https://github.com/btpd/btpd) - ⚡ The BitTorrent Protocol Daemon
+
+## ansible 
+
+- [pyroscope/pimp-my-box](https://github.com/pyroscope/pimp-my-box) - :seedling: Automated seedbox install of rTorrent-PS and PyroScope CLI etc. via Ansible.
+
+## ubuntu 
+
+- [pyroscope/pimp-my-box](https://github.com/pyroscope/pimp-my-box) - :seedling: Automated seedbox install of rTorrent-PS and PyroScope CLI etc. via Ansible.
+
+## library 
+
+- [pyroscope/pyrocore](https://github.com/pyroscope/pyrocore) - :wrench: A collection of tools for the BitTorrent protocol and especially the rTorrent client
 
 
 ## License
